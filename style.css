@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 150px;
+    min-height: 100vh;
+}
+
+.parent-container {
+    display: flex;
+    background-color: #ffffff;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.leftChild {
+    background-color: #2c3e50;
+    color: white;
+    padding: 40px;
+    width: 35%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: #2c3e50;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #bdc3c7;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #bdc3c7;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #2c3e50;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.parent-container02 {
+    padding: 20px;
+    width: 65%;
+}
+
+ul li {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    color: #2c3e50;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 5px #bdc3c7;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: #34495e;
+}
+
+.icon {
+    margin-right: 10px;
+    color: #2c3e50;
+}
